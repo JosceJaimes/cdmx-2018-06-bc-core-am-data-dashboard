@@ -7,3 +7,15 @@
 header {
   background-color: #F2C94C;
 }
+.card{
+  width:  320px;
+  height: 250px;
+  display: inline-flex;
+  margin: 0.5rem;
+  background-color: #ffffff;
+  text-anchor: start;
+  color: #000000;
+  text-align: center;
+  border: 6px solid #FF009A;
+
+}

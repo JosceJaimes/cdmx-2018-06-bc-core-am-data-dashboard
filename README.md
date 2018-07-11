@@ -4,7 +4,7 @@
 
 ### Definición del usuario.
 
-El proyecto se encuentra diseñado para el staff de Laboratoria en especifico para las Training Managers (TMs) quienes son el personal encargado de realizar el analisis de la mayor cantidad  de  datos posibles respecto al progreso de las estudiantes para apoyarlas en su aprendizaje y desempeño durante el bootcamp pensando que esta información se hiciera extensiva a los coaches para poder Identificar dentro de sus equipos asiganados los temas a reforzar con el obejetivo de cumplir metas y desarrollar habilidades especificas. Esta herramienta esta pensada para utilizarse como una base de datos que permiteria al área \*\*\* la consulta de datos personales de las egresadas para realizar el seguimiento correspondiente.
+El proyecto se encuentra diseñado para el staff de Laboratoria en especifico para las Training Managers (TMs) quienes son el personal encargado de realizar el analisis de la mayor cantidad  de  datos posibles respecto al progreso de las estudiantes para apoyarlas en su aprendizaje y desempeño durante el bootcamp pensando que esta información se hiciera extensiva a los coaches para poder Identificar dentro de sus equipos asiganados los temas a reforzar con el obejetivo de cumplir metas y desarrollar habilidades especificas. Esta herramienta esta pensada para utilizarse como una base de datos que permitiran al área la consulta de información personal de la estudiantes para realizar el seguimiento correspondiente.
 
 ### Objetivos del usuario.
 
