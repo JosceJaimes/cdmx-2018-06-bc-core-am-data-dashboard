@@ -1,3 +1,4 @@
+
 const container = document.getElementById('alumnas'); 
  
 laboratoria = (data) =>{
@@ -9,7 +10,6 @@ laboratoria = (data) =>{
     for (progress of estudiante) {
       let pro = progress.progreso.porcentajeCompletado;
       let percentDuration = progress.progreso.duracionPrograma;
-      //  console.log(percentComplete);
       if (pro >= 60) {
         status = 'Alumna promedio';
       } else if (pro <= 60) {
@@ -20,8 +20,6 @@ laboratoria = (data) =>{
       
       for (let i = 0; i < estudiante.length; i++) {
         let nombres = estudiante[i];
-        // console.log(percentComplete);
-        // // console.log(status);
         result += `<div class="col-md-4">
       <div class="card">
       <div class = "estudiante">
@@ -39,7 +37,6 @@ laboratoria = (data) =>{
       return result;
     };
   });
-
 
   document.getElementById('boton2').addEventListener('click', (event) => {
     let estudiante = data.santiago.generacion.cuarta.estudiantes;
@@ -59,7 +56,7 @@ laboratoria = (data) =>{
       
       for (let i = 0; i < estudiante.length; i++) {
         let nombres = estudiante[i];
-        // console.log(nombres);
+ 
         result += `<div class="card">
         <div class = "estudiante">
       
@@ -70,10 +67,12 @@ laboratoria = (data) =>{
         <p>Duración del programa: ${percentDuration}</p>
         </div>
         </div> `;
+
       }
       container.innerHTML = result;
       return result;
     }
+
   }),
 
 
@@ -85,17 +84,17 @@ laboratoria = (data) =>{
     for (progress of estudiante) {
       let pro = progress.progreso.porcentajeCompletado;
       let percentDuration = progress.progreso.duracionPrograma;
-      //  console.log(percentComplete);
+
       if (pro >= 60) {
         status = 'Alumna promedio';
       } else if (pro <= 60) {
         status = 'Alumna con con bajo desempeño';
       } else if (pro >= 90) {
         status = 'Alumna sobresaliente';
+
       } 
       for (let i = 0; i < estudiante.length; i++) {
         let nombres = estudiante[i];
-        // console.log(nombres);
         result += `<div class="card">
           <div class = "estudiante">
         
@@ -111,4 +110,3 @@ laboratoria = (data) =>{
       return result;
     }
   });
-};
