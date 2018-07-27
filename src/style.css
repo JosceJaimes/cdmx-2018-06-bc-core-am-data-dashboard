@@ -1,6 +1,8 @@
 *{
   padding: 0;
   border: 0;
+  background-color: white;
+  
 }
 
 
@@ -12,10 +14,21 @@ header {
   height: 250px;
   display: inline-flex;
   margin: 0.5rem;
-  background-color: rgb(255, 229, 33);
+  background-color:  rgb(255, 0, 158);
   text-anchor: start;
+  font-family: 'Bitter', serif;
   color: rgb(0, 0, 0);
   text-align: center;
   border: 6px solid rgb(255, 0, 158);
 
 }
+.btn-warning {
+  background-color: rgb(255, 229, 33);
+  font-family: 'Bitter', serif;
+  font-size: 20px;
+  text-align: center;
+  
+  
+}
+
+/* bitter */
