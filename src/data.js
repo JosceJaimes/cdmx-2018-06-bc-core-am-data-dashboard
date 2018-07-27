@@ -110,3 +110,4 @@ laboratoria = (data) =>{
       return result;
     }
   });
+}
