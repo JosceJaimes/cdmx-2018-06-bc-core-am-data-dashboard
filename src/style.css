@@ -5,17 +5,18 @@
 
 
 header {
-  background-color: #F2C94C;
+  background-color: rgb(255, 229, 33);
 }
 .card{
   width:  320px;
   height: 250px;
   display: inline-flex;
   margin: 0.5rem;
-  background-color: #ffffff;
+  background-color: rgb(255, 229, 33);
   text-anchor: start;
-  color: #000000;
+  color: rgb(0, 0, 0);
   text-align: center;
-  border: 6px solid #FF009A;
+  border: 6px solid rgb(255, 0, 158);
+
 
 }
