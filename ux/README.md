@@ -122,3 +122,11 @@ Por lo cuál se generaron sketchs de alta fidelidad que se acercan a la realidad
   ## seguridad.
   Debido a la sencibilidad de datos que se tratan en la presente aplicaciòn se genera un formulario de registro en el cual solo los administradores y personas permitidass podran ingresar a la misma.
   En este momento amodo de prueba la presente apliccion no esta configurada para generar el registro de usuarios.
+##Colores y tipografía.
+
+Se usa la paleta de colores preestablecida anteriormente ya que actualmente pertenece a la marca Laboratoria, quien es nuestro usuario base. 
+
+AMARILLO: Esta fuertemente asociado con la parte intelectual de nuestra mente y la expresión de nuestros pensamientos.
+NEGRO: Se asocia con la fuerza que se encuenytra escondida dentro de cada muujer, la cual es pasiva hasta el momento de actuar.
+ROSA: Se relaciona con la feminidad y la protección femenina.
+VERDE: Invita a la relajacion, la armomnia y serenidad además simboliza y la fertilidad. 
