@@ -113,3 +113,12 @@ Por lo cuál se generaron sketchs de alta fidelidad que se acercan a la realidad
 
 ##Requerimenientos para utilizar esta aplicación.
 
+1.- Contar con internet.
+2.-Tener tu navegador actualizado.
+3- Ingresar a la siguiente pàgina https://joscejaimes.github.io/cdmx-2018-06-bc-core-am-data-dashboard/src/
+4.- Contar con cuenta generada.
+5.-Ingresar a la app.
+  
+  ## seguridad.
+  Debido a la sencibilidad de datos que se tratan en la presente aplicaciòn se genera un formulario de registro en el cual solo los administradores y personas permitidass podran ingresar a la misma.
+  En este momento amodo de prueba la presente apliccion no esta configurada para generar el registro de usuarios.

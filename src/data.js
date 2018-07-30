@@ -1,6 +1,6 @@
 
 const container = document.getElementById('alumnas'); 
- 
+//  Primer acercamiento a la data donde nos muestra las tres generaciones de la sede Lima.
 laboratoria = (data) =>{
   document.getElementById('boton1').addEventListener('click', (event) => {
     let estudiante = data.lima.generacion.cuarta.estudiantes;
@@ -17,10 +17,14 @@ laboratoria = (data) =>{
       } else if (pro >= 90) {
         status = 'Alumna sobresaliente';
       }   
-      
       for (let i = 0; i < estudiante.length; i++) {
-        let nombres = estudiante[i];
-        result += `<div class="col-md-4">
+        let nombres = Object.getOwnPropertyNames(estudiante[i]);
+        // console.log(nombres);
+        for (let j = 0; j < nombres.length; j++) { 
+          console.log(nombres[j]);
+
+
+          result += `<div class="col-md-4">
       <div class="card">
       <div class = "estudiante">
     
@@ -32,12 +36,14 @@ laboratoria = (data) =>{
       </div>
       </div>
       </div> `;
+        }
+        container.innerHTML = result;
+        return result;
       }
-      container.innerHTML = result;
-      return result;
     };
   });
 
+  // Aplicacion de la segunda sede (Santiago).
   document.getElementById('boton2').addEventListener('click', (event) => {
     let estudiante = data.santiago.generacion.cuarta.estudiantes;
     let progress = estudiante.progreso;
@@ -55,9 +61,12 @@ laboratoria = (data) =>{
       }   
       
       for (let i = 0; i < estudiante.length; i++) {
-        let nombres = estudiante[i];
+        let nombres = Object.getOwnPropertyNames(estudiante[i]);
+        // console.log(nombres);
+        for (let j = 0; j < nombres.length; j++) { 
+          console.log(nombres[j]);
  
-        result += `<div class="card">
+          result += `<div class="card">
         <div class = "estudiante">
       
         <p>Nombre: ${nombres.nombre}</p>
@@ -67,47 +76,64 @@ laboratoria = (data) =>{
         <p>Duración del programa: ${percentDuration}</p>
         </div>
         </div> `;
-
+        }
+        container.innerHTML = result;
+        return result;
       }
-      container.innerHTML = result;
-      return result;
     }
-
   }),
-
-
+  // TERCER BOTON DONDE NOS MUESTRA LA SEDE DE MEXICO 
   document.getElementById('boton3').addEventListener('click', (event) => {
-    let estudiante = data.mexico.generacion.cuarta.estudiantes;
+    let estudiante = data.santiago.generacion.cuarta.estudiantes;
     let progress = estudiante.progreso;
     let result = '';
-   
     for (progress of estudiante) {
       let pro = progress.progreso.porcentajeCompletado;
       let percentDuration = progress.progreso.duracionPrograma;
-
+      // console.log(percentDuration);
       if (pro >= 60) {
         status = 'Alumna promedio';
       } else if (pro <= 60) {
         status = 'Alumna con con bajo desempeño';
       } else if (pro >= 90) {
         status = 'Alumna sobresaliente';
-
-      } 
+      }   
+      
       for (let i = 0; i < estudiante.length; i++) {
-        let nombres = estudiante[i];
-        result += `<div class="card">
-          <div class = "estudiante">
+        let nombres = Object.getOwnPropertyNames(estudiante[i]);
+        // console.log(nombres);
+        for (let j = 0; j < nombres.length; j++) { 
+          console.log(nombres[j]);
         
-          <p>Nombre: ${nombres.nombre}</p>
-          <p>Correo: ${nombres.correo}</p>
-          <p>Turno: ${nombres.turno}</p>
-          <p>Estatus: ${status}</p>
-          <p>Duración del programa: ${percentDuration}</p>
-          </div>
-          </div> `;
+ 
+          result += `<div class="card">
+        <div class = "estudiante">
+      
+        <p>Nombre: ${nombres.nombre}</p>
+        <p>Correo: ${nombres.correo}</p>
+        <p>Turno: ${nombres.turno}</p>
+        <p>Estatus: ${status}</p>
+        <p>Duración del programa: ${percentDuration}</p>
+        </div>
+        </div> `;
+          // });
+        }
       }
-      container.innerHTML = result;
-      return result;
     }
+    container.innerHTML = result;
+    return result;
   });
-}
+};
+
+computeStudentsStats = (laboratoria) =>{
+
+};
+computeGenerationsStats = (laboratoria) => {
+
+};
+sortStudents = (students, orderBy, orderDirection) =>{
+
+};
+filterStudents = (students, search) =>{
+
+};
