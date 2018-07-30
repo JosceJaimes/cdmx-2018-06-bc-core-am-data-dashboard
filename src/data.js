@@ -1,4 +1,7 @@
-
+// computeStudentsStats = (laboratoria) =>{
+//   let data = Object.values(laboratoria);
+//   console.log(data);
+// };
 const container = document.getElementById('alumnas'); 
 //  Primer acercamiento a la data donde nos muestra las tres generaciones de la sede Lima.
 laboratoria = (data) =>{
@@ -113,8 +116,7 @@ laboratoria = (data) =>{
 };
 
 computeStudentsStats = (laboratoria) =>{
-  let data = Object.keys(laboratoria);
-  console.log(data);
+  
 };
 computeGenerationsStats = (laboratoria) => {
 
