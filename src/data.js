@@ -91,7 +91,7 @@ laboratoria = (data) =>{
       }   
       
       for (let i = 0; i < estudiante.length; i++) {
-        let nombres = Object.getOwnPropertyNames(estudiante[i]);
+        let nombres = estudiante[i];
         
  
         result += `<div class="card">
@@ -113,7 +113,8 @@ laboratoria = (data) =>{
 };
 
 computeStudentsStats = (laboratoria) =>{
-
+  let data = Object.keys(laboratoria);
+  console.log(data);
 };
 computeGenerationsStats = (laboratoria) => {
 
