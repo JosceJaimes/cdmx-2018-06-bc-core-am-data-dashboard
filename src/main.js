@@ -5,8 +5,9 @@ window.onload = () => {
     .then(respuesta => respuesta.json())
     .then(data => {
       laboratoria(data);
+      computeStudentsStats(laboratoria);
     })
     .catch(error =>{
-      console.log('Te equivocaste');
+      console.log(error);
     });
 };

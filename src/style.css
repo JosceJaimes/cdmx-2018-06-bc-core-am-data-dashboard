@@ -3,13 +3,10 @@
   padding: 0;
   border: 0;
   background-color: white;
+  text-align:center
   
 }
 
-
-header {
-  background-color: rgb(255, 229, 33);
-}
 .card{
   width:  320px;
   height: 250px;
@@ -28,6 +25,14 @@ header {
   font-family: 'Bitter', serif;
   font-size: 20px;
   text-align: center;
-  
-  
+}
+.dropdown-menu{
+  text-align:center;
+  font-size:18px;
+  font-family:'Bitter', serif;
+  background-color: rgb(255, 229, 33);
+
+}
+.dropdown-item{
+  text-align:center;
 }
