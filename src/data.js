@@ -17,14 +17,10 @@ laboratoria = (data) =>{
       } else if (pro >= 90) {
         status = 'Alumna sobresaliente';
       }   
+      
       for (let i = 0; i < estudiante.length; i++) {
-        let nombres = Object.getOwnPropertyNames(estudiante[i]);
-        // console.log(nombres);
-        for (let j = 0; j < nombres.length; j++) { 
-          console.log(nombres[j]);
-
-
-          result += `<div class="col-md-4">
+        let nombres = estudiante[i];
+        result += `<div class="col-md-4">
       <div class="card">
       <div class = "estudiante">
     
@@ -36,10 +32,9 @@ laboratoria = (data) =>{
       </div>
       </div>
       </div> `;
-        }
-        container.innerHTML = result;
-        return result;
       }
+      container.innerHTML = result;
+      return result;
     };
   });
 
@@ -61,12 +56,9 @@ laboratoria = (data) =>{
       }   
       
       for (let i = 0; i < estudiante.length; i++) {
-        let nombres = Object.getOwnPropertyNames(estudiante[i]);
-        // console.log(nombres);
-        for (let j = 0; j < nombres.length; j++) { 
-          console.log(nombres[j]);
+        let nombres = estudiante[i];
  
-          result += `<div class="card">
+        result += `<div class="card">
         <div class = "estudiante">
       
         <p>Nombre: ${nombres.nombre}</p>
@@ -76,13 +68,12 @@ laboratoria = (data) =>{
         <p>Duración del programa: ${percentDuration}</p>
         </div>
         </div> `;
-        }
-        container.innerHTML = result;
-        return result;
       }
+      container.innerHTML = result;
+      return result;
     }
   }),
-  // TERCER BOTON DONDE NOS MUESTRA LA SEDE DE MEXICO 
+  // Tercer boton donde se muestran las generaciones de la sede de Santiago.  
   document.getElementById('boton3').addEventListener('click', (event) => {
     let estudiante = data.santiago.generacion.cuarta.estudiantes;
     let progress = estudiante.progreso;
@@ -101,12 +92,9 @@ laboratoria = (data) =>{
       
       for (let i = 0; i < estudiante.length; i++) {
         let nombres = Object.getOwnPropertyNames(estudiante[i]);
-        // console.log(nombres);
-        for (let j = 0; j < nombres.length; j++) { 
-          console.log(nombres[j]);
         
  
-          result += `<div class="card">
+        result += `<div class="card">
         <div class = "estudiante">
       
         <p>Nombre: ${nombres.nombre}</p>
@@ -116,8 +104,7 @@ laboratoria = (data) =>{
         <p>Duración del programa: ${percentDuration}</p>
         </div>
         </div> `;
-          // });
-        }
+        // });
       }
     }
     container.innerHTML = result;
