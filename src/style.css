@@ -1,21 +1,38 @@
+/* Estilos de la pàgina que muestra el contenido de las aliumnas */
 *{
   padding: 0;
   border: 0;
+  background-color: white;
+  text-align:center
+  
 }
 
-
-header {
-  background-color: #F2C94C;
-}
 .card{
   width:  320px;
   height: 250px;
   display: inline-flex;
   margin: 0.5rem;
-  background-color: #ffffff;
+  background-color:  rgb(255, 0, 158);
   text-anchor: start;
-  color: #000000;
+  font-family: 'Bitter', serif;
+  color: rgb(0, 0, 0);
   text-align: center;
-  border: 6px solid #FF009A;
+  border: 6px solid rgb(255, 0, 158);
 
+}
+.btn-warning {
+  background-color: rgb(255, 229, 33);
+  font-family: 'Bitter', serif;
+  font-size: 20px;
+  text-align: center;
+}
+.dropdown-menu{
+  text-align:center;
+  font-size:18px;
+  font-family:'Bitter', serif;
+  background-color: rgb(255, 229, 33);
+
+}
+.dropdown-item{
+  text-align:center;
 }

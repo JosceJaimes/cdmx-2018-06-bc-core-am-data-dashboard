@@ -5,7 +5,7 @@
 
 ## Definición del usuario.
 
-El producto esta dirigido para todo el staff de laboratoria.
+El presente producto está dirigido a el personal que se encuentra laborando en Laboratoria actualmente 
 
 
 
@@ -14,14 +14,14 @@ El producto esta dirigido para todo el staff de laboratoria.
 Requieren una herramienta que les simplifique el proceso de obtención de datos definidos que les permitan llegar a soluciones en base a estadíticas.
 
 ## Pseudo código.
-En el inicio se genero un pseudo código en el cual implementamos las acciones que normalmente se deberían generar en una aplicación correctamente estructurada.
+En el inicio se genero un pseudo código en el cual nos permite entender como actua el usuario y las metas a las cuales requier llegar.
 
 ![prototipo](imagenes/seudo-codigo.jpg)
 
 ## Diagrama de flujo.
 
 
-Posteriormente se genero un diagrama de flujo pensando en la organización de los elementos que se aplicaran para este Data Dashboard.
+Posteriormente se genero un diagrama de flujo pensando en la organización de los elementos que se aplicaran para este Data Dashboard permitiendonos en todo momento ponernos en el lugar del usuario. De esta manera se facilitará el entendimiento de la aplicación para el mismo usuario.
 
 ![prototipo](imagenes/diagrama.png)
 
@@ -36,7 +36,8 @@ Al inicio de la creación del sketching nos enfocamos en diseños básicos  toma
  
 ### Aplicaciones usadas actualmete.
 
-Actualmente el equipo de Laboratoria se desempeña en sus roles y acceden a la información recopliada através de Gogle Drive y generan distintas bases de datos propias en las cuáles van actualizando la información gradualmente, esto les lleva a generar muchas tablas en excel en las que vacian el contenido. Esto genera conflictos ya que llegado un punto, no saben cuál es la que tiene la información que requieren. 
+Actualmente el equipo de Laboratoria se desempeña en sus roles y acceden a la información recopliada através de Gogle Drive y generan distintas bases de datos propias en las cuáles van actualizando la información gradualmente, esto les lleva a generar muchas tablas en excel en las que vacian el contenido. Esto
+     genera conflictos ya que llegado un punto, no saben cuál es la que tiene la información que requieren. 
 
 
 ### Acceso a la información.
@@ -110,3 +111,30 @@ Por lo cuál se generaron sketchs de alta fidelidad que se acercan a la realidad
 
 ![pagina4](imagenes/pagina4.png)
 
+<<<<<<< HEAD
+=======
+##Requerimenientos para utilizar esta aplicación.
+
+1.- Contar con internet.
+2.-Tener tu navegador actualizado.
+3- Ingresar a la siguiente pàgina https://joscejaimes.github.io/cdmx-2018-06-bc-core-am-data-dashboard/src/
+4.- Contar con cuenta generada.
+5.-Ingresar a la app.
+  
+  ## Seguridad.
+  Debido a la sencibilidad de datos que se tratan en la presente aplicaciòn se genera un formulario de registro en el cual solo los administradores y personas permitidass podran ingresar a la misma.
+  En este momento amodo de prueba la presente apliccion no esta configurada para generar el registro de usuarios.
+
+
+##Colores y tipografía.
+
+Se usa la paleta de colores preestablecida anteriormente ya que actualmente pertenece a la marca Laboratoria, quien es nuestro usuario base. 
+
+-AMARILLO: Esta fuertemente asociado con la parte intelectual de nuestra mente y la expresión de nuestros pensamientos.
+
+-NEGRO: Se asocia con la fuerza que se encuenytra escondida dentro de cada muujer, la cual es pasiva hasta el momento de actuar.
+
+-ROSA: Se relaciona con la feminidad y la protección femenina.
+
+-VERDE: Invita a la relajacion, la armomnia y serenidad además simboliza y la fertilidad. 
+>>>>>>> origin/master

@@ -1,0 +1,34 @@
+/* Estilos de login*/
+
+.login {
+  background-color: rgb(255, 229, 33);
+  margin: auto;
+  width: 100%;
+  max-width:500px;
+  padding: 40px;
+  border: 1px solid rgb(255, 0, 158) 
+   
+}
+
+h1 {
+  background-color:  rgb(255, 0, 158);
+  border: 10px solid rgb(255, 0, 158);
+  margin-bottom: 40px;  
+  text-align: center;
+  font-family: 'Bitter', serif;
+  font-size: 50px
+  box-sizing: border-box;
+  
+}
+
+input {
+  background-color: rgb(243, 243, 243);
+  padding: 25px;
+  display: block;
+  width: 75%;
+  margin-bottom: 30px;
+  font-size: 25px;
+  font-family: 'Bitter', serif;
+  text-align: center;
+  max-width: 1000px;
+}
