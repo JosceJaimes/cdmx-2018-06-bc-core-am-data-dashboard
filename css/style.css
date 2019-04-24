@@ -1,6 +1,6 @@
 /* Estilos de la pàgina que muestra el contenido de las aliumnas */
 *{
-  padding: 0;
+  padding-top: 500px;
   border: 0;
   background-color: white;
   text-align:center
@@ -35,4 +35,7 @@
 }
 .dropdown-item{
   text-align:center;
+}
+.container {
+  padding: 100px;
 }
