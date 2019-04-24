@@ -66,3 +66,10 @@ El Data Dashboard se implementó para hacer el entorno laboral del usuario más 
 ## Proceso de diseño.
 
 Durante los primeros días se generaron sketchin de prueba que nos permitieron llegar con el usuario para preguntarle por sus necesidades, debido a ello, las necesidades del mismo quedaron claras y especificas, el mostrar el sketching a un usuario nos permitio que el mismo se diera cuenta de cual diseño le funcionaba más, y cual otro tenia algunos conflictos, por lo mismo se creo una fución de todo lo que el usuario requiere y se llego a la conclusion de que se tenia que hacer un diseño funcional con colores minimalistas y que fuera sencillo de entender. Por ello el diseño final es el que aquí se presenta.
+
+
+
+## Usuario y contraseña de la aplicacion.
+
+Clave : 123456
+Usuario: joscejaimes@gmail.com
