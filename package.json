@@ -12,12 +12,14 @@
     "test": "npm run test-node && npm run test-browser"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "chai": "^4.1.2",
     "eslint": "^4.19.1",
     "htmlhint": "^0.9.13",
     "mocha": "^5.2.0",
     "nyc": "^11.9.0",
     "opener": "^1.4.3",
+    "requirejs": "^2.3.6",
     "serve": "^9.4.0"
   }
 }
